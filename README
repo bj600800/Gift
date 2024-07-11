@@ -1,20 +1,2 @@
-创建与提交
-1.  git init .
-初始化，表示把这个文件变成Git可以管理的仓库。初始化后打开隐藏的文件可以看到有一个.git文件。
+WeChat robot
 
-2.  git add . 
-后面的一个点表示把这个文件全部提交到暂存区。
-
-3.  git add ./readme.md/ 
-表示把这个文件下面的readme.md文件提交到暂存区。
-
-4.  git commit -m "你要评论一点什么东西" 
-git commit的意思是把暂存区的全部文件提交到本地仓库。-m后接评论。
-
-5.  git remote add origin https://github.com/bj600800/Gift.git 
-表示把你本地的仓库与GitHub上的远程仓库连接起来。只需要连接一次，以后提交的时候就可以不用写这条命令了。
-
-6.  git push -u origin master
-把本地仓库提交到远程仓库。（若需要对其他分支进行操作，则把master换为对应分支，如:git push -u origin dev）
-
-删除远程仓库文件
